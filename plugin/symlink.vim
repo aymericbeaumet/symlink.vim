@@ -19,7 +19,7 @@ function! s:on_buf_read(filepath)
     Bwipeout
   else
     if &diff
-      echoerr "symlink.vim: 'moll/vim-bbye' is required in order for this plugin to properly work in diff mode"
+      echoerr "vim-symlink: 'moll/vim-bbye' is required in order for this plugin to properly work in diff mode"
       return
     endif
     enew
